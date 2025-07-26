@@ -48,7 +48,7 @@ class LIFNeuron:
             plt.xlabel("Bước thời gian")
             plt.ylabel("Xung (0 hoặc 1)")
             plt.tight_layout()
-            plt.savefig("outputs/lif_plot.png")
+            # plt.savefig("outputs/lif_plot.png")
             plt.close()
 
         return spk_rec, mem_rec

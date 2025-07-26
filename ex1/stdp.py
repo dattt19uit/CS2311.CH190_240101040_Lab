@@ -41,7 +41,7 @@ def update_stdp_weights(pre_spikes, post_spikes, w_init, A_plus=0.1, A_minus=-0.
         plt.title("Thay đổi trọng số synapse qua các lần lặp STDP")
         plt.xlabel("Lần lặp")
         plt.ylabel("Trọng số")
-        plt.savefig("outputs/stdp_plot.png")
+        # plt.savefig("outputs/stdp_plot.png")
         plt.close()
 
     return weight_changes
