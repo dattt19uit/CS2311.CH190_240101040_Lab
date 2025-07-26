@@ -55,7 +55,7 @@ def train_and_evaluate(model, train_loader, test_loader, num_steps, num_epochs=1
     plt.xlabel("Epoch")
     plt.ylabel("Độ chính xác (%)")
     # plt.savefig("outputs/csnn_accuracy_plot.png")
-    plt.close()
+    # plt.close()
 
     return train_accuracy_hist
 

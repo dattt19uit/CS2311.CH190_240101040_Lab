@@ -33,6 +33,6 @@ def encode_to_spike_train(signal, num_steps, gain=1.0, offset=0.0, plot=False):
         plt.ylabel("Xung (0 hoặc 1)")
         plt.tight_layout()
         # plt.savefig("outputs/encoding_plot.png")
-        plt.close()
+        # plt.close()
 
     return spike_train

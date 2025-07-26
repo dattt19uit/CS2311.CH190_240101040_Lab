@@ -49,6 +49,6 @@ class LIFNeuron:
             plt.ylabel("Xung (0 hoặc 1)")
             plt.tight_layout()
             # plt.savefig("outputs/lif_plot.png")
-            plt.close()
+            # plt.close()
 
         return spk_rec, mem_rec
